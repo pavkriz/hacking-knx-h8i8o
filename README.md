@@ -16,7 +16,7 @@ The following [script](h8i8o-swd-loop.sh) was tested in Linux. Make sure the [ST
 
 2. Run the script in your terminal `./h8i8o-swd-loop.sh` (may require adding executable attribute by `chmod +x h8i8o-swd-loop.sh` before). The script loops and tries to connect to H8I8O via the ST-Link.
 
-3. Connect ST-Link probe clone to H8I8O:  the 4 pins marked D, C, G and V are SWDIO, SWDCLK, GND and +3.3V. I use male-female dupont wires. Cheap ST-Link clones work here well, we appreciate they provide +3.3V output (not sure the original ST-Link does that). Ones you connect the board, the running script will succeed and will erase and flash the testing "blink" firmware. You may try disconnecting +3.3V and connecting again while script is running in case the script won't "catch".
+3. Connect ST-Link probe clone to H8I8O:  the 4 pins marked D, C, G and V are SWDIO, SWDCLK, GND and +3.3V. I use male-female dupont wires. Cheap ST-Link clones work here well, we appreciate they provide +3.3V output (not sure the original ST-Link does that). Once you connect the board, the running script will succeed and will erase and flash the testing "blink" firmware. You may try disconnecting +3.3V and connecting again while script is running in case the script won't "catch".
 
 ![connection](connection.jpg)
 
