@@ -18,6 +18,8 @@ The following [script](h8i8o-swd-loop.sh) was tested in Linux. Make sure the [ST
 
 3. Connect ST-Link probe clone to H8I8O:  the 4 pins marked D, C, G and V are SWDIO, SWDCLK, GND and +3.3V. I use male-female dupont wires. Cheap ST-Link clones work here well, we appreciate they provide +3.3V output (not sure the original ST-Link does that). Ones you connect the board, the running script will succeed and will erase and flash the testing "blink" firmware. You may try disconnecting +3.3V and connecting again while script is running in case the script won't "catch".
 
+![connection](connection.jpg)
+
 4. Now the H8I8O KNX device is running blink firmware, ie. blinking the built-in LED. The SWD is enabled and so the device is ready to be flashed and debugged by any supported tool.
 
 ## Related files
